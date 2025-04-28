@@ -1,0 +1,26 @@
+POST http://localhost:3000/api/auth/otp/generate HTTP/1.1
+content-type: application/json
+
+{
+    "email": "user@example.com"
+}
+
+###
+
+POST http://localhost:3000/api/auth/otp/verify HTTP/1.1
+content-type: application/json
+
+{
+    "email": "user@example.com",
+    "otp": "1234"
+}
+
+###
+
+POST http://localhost:3000/api/users/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "user@example.com",
+    "password": "123456"
+}
