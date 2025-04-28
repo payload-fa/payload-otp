@@ -1,6 +1,6 @@
 # Payload OTP Authentication Example 
 
-This template provides a complete OTP (One-Time Password) authentication system built on Payload CMS. It includes endpoints for generating and verifying OTP codes.
+This example provides a complete OTP (One-Time Password) authentication system built on Payload CMS. It includes endpoints for generating and verifying OTP codes.
 
 ## Getting Started
 
